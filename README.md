@@ -15,7 +15,7 @@ Steps
 $git clone https://github.com/openstack-dev/devstack.git
 ```
 
-2. Clone devstack-rally
+2. Clone devstack-neutron
 ```
 $git clone https://github.com/svashu/devstack-neutron.git
 ```
