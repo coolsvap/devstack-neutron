@@ -10,25 +10,25 @@ Prerequisites:
 
 Steps
 -----
-1. Clone devstack
+Clone devstack
 ```
 $git clone https://github.com/openstack-dev/devstack.git
 ```
 
-2. Clone devstack-neutron
+Clone devstack-neutron
 ```
 $git clone https://github.com/svashu/devstack-neutron.git
 ```
 
-3. Copy localrc from devstack-neutron to devstack
+Copy localrc from devstack-neutron to devstack
 ```
 $ cp devstack-neutron/localrc devstack
 
 ```
 
-4. Modify the devstack/localrc for IP and password modifications
+Modify the devstack/localrc for IP and password modifications
 
-5. Deploy your Devstack
+Deploy your Devstack
 
 ```
 $cd devstack && ./stack.sh
